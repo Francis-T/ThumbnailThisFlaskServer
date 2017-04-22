@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+</head>
+<body>
+<div class="container">
+
+    <section class="header">
+        <h4 class="title">Welcome to the Upload Page!</h4>
+    </section>
+
+    <form method="POST" action="upload" enctype="multipart/form-data">
+    <div class="row">
+        <div class="one column">
+            Device Id
+        </div> <!-- column -->
+        <div class="four columns">
+            <input class="u-full-width" type="text" name="device_id" value=""></input>
+        </div> <!-- column -->
+    </div> <!-- row -->
+
+    <div class="row">
+        <div class="one column">
+            Content
+        </div> <!-- column -->
+        <div class="four columns">
+            <input class="u-full-width" type="text" name="content" value=""></input>
+        </div> <!-- column -->
+    </div> <!-- row -->
+
+    <div class="row">
+        <div class="one column">
+            File
+        </div> <!-- column -->
+        <div class="four columns">
+            <input class="u-full-width" type="file" name="filename" value=""></input>
+        </div> <!-- column -->
+    </div> <!-- row -->
+
+    <div class= "row">
+        <div class="five columns">
+            <input class="u-full-width" type="submit" value="Ok">
+        </div>
+    </div> <!-- row -->
+
+    </form>
+</div><!-- container -->
+</body>
+</html>
